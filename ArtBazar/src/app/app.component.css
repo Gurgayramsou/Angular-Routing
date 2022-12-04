@@ -1,0 +1,38 @@
+/*  entire page cover*/
+.coverFull {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* img for background */
+.imgBg {
+  background: url("../assets/Images/paintBg.jpeg");
+  position: relative;
+}
+
+/* dim layer cover bg */
+.dimLayer {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* log setting */
+.logoComb {
+  display: flex;
+  margin: 2% 4%;
+}
+
+.logoHd {
+  font-family: "Roboto", sans-serif;
+  font-family: "Rock Salt", cursive;
+  color: white;
+}
+
+#logoImg {
+  height: 100px;
+  width: 100px;
+}
